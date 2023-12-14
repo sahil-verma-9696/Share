@@ -1,0 +1,20 @@
+1. Declaration 
+    syntax 
+        data_type array_name[];
+
+2. Declaration using size
+    syntax 
+        data_type array_name[size];
+
+3. Initializaion
+    syntax :
+        data_type array_name = {} //blank array
+        data_type array_name = { element1, element2, element3 ,...}; //Initializaion with elements
+
+4. visiutlation:
+ [ 1, 2, 3, 4, 5, 6]
+   0  1  2  3  4  5 // indexing 
+
+5. Accessing the element of array;
+
+array_name[index_value];
