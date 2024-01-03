@@ -16,47 +16,73 @@
 #  ********************** Assignment operator *************************
 # Assignment Operators (=, +=, -=, *=, /=, %=, //=, **=)
 
-# Assignment Operator (=)
-x = 5  # Assigns the value 5 to variable x
-print("x =", x)
+# # Example :
 
-# Addition Assignment (+=)
-x += 3  # Equivalent to x = x + 3 (x will be 8 after this operation)
-print("x += 3:", x)
+# # Assignment Operator (=)
+# x = 5  # Assigns the value 5 to variable x
+# print("x =", x)
 
-# Subtraction Assignment (-=)
-y = 10
-y -= 4  # Equivalent to y = y - 4 (y will be 6 after this operation)
-print("y -= 4:", y)
+# # Addition Assignment (+=)
+# x += 3  # Equivalent to x = x + 3 (x will be 8 after this operation)
+# print("x += 3:", x)
 
-# Multiplication Assignment (*=)
-z = 3
-z *= 2  # Equivalent to z = z * 2 (z will be 6 after this operation)
-print("z *= 2:", z)
+# # Subtraction Assignment (-=)
+# y = 10
+# y -= 4  # Equivalent to y = y - 4 (y will be 6 after this operation)
+# print("y -= 4:", y)
 
-# Division Assignment (/=)
-a = 15
-a /= 3  # Equivalent to a = a / 3 (a will be 5.0 after this operation)
-print("a /= 3:", a)
+# # Multiplication Assignment (*=)
+# z = 3
+# z *= 2  # Equivalent to z = z * 2 (z will be 6 after this operation)
+# print("z *= 2:", z)
 
-# Modulus Assignment (%=)
-b = 17
-b %= 5  # Equivalent to b = b % 5 (b will be 2 after this operation)
-print("b %= 5:", b)
+# # Division Assignment (/=)
+# a = 15
+# a /= 3  # Equivalent to a = a / 3 (a will be 5.0 after this operation)
+# print("a /= 3:", a)
 
-# Floor Division Assignment (//=)
-c = 21
-c //= 4  # Equivalent to c = c // 4 (c will be 5 after this operation)
-print("c //= 4:", c)
+# # Modulus Assignment (%=)
+# b = 17
+# b %= 5  # Equivalent to b = b % 5 (b will be 2 after this operation)
+# print("b %= 5:", b)
 
-# Exponentiation Assignment (**=)
-d = 2
-d **= 3  # Equivalent to d = d ** 3 (d will be 8 after this operation)
-print("d **= 3:", d)
+# # Floor Division Assignment (//=)
+# c = 21
+# c //= 4  # Equivalent to c = c // 4 (c will be 5 after this operation)
+# print("c //= 4:", c)
+
+# # Exponentiation Assignment (**=)
+# d = 2
+# d **= 3  # Equivalent to d = d ** 3 (d will be 8 after this operation)
+# print("d **= 3:", d)
 
 
 #  ********************** Comparison operator *************************
 #  ********************** Logic operator ******************************
+# Logic operators ( and , or , not)
+
+# Example : 
+
+# Logical AND (and)
+result_and_1 = False and True  # False evaluates to False, so the result is False
+result_and_2 = True and "Hello"  # True evaluates to True, so the result is "Hello"
+
+print("False and True:", result_and_1)  # Output: False
+print("True and 'Hello':", result_and_2)  # Output: 'Hello'
+
+# Logical OR (or)
+result_or_1 = True or False  # True evaluates to True, so the result is True
+result_or_2 = False or "Python"  # False evaluates to False, so the result is "Python"
+
+print("True or False:", result_or_1)  # Output: True
+print("False or 'Python':", result_or_2)  # Output: 'Python'
+
+# Logical NOT (not)
+result_not_1 = not True  # True evaluates to True, so the result is False
+result_not_2 = not "Hello"  # Non-empty string evaluates to True, so the result is False
+
+print("not True:", result_not_1)  # Output: False
+print("not 'Hello':", result_not_2)  # Output: False
 
 #  ********************** Identity operator ***************************
 # Operator
