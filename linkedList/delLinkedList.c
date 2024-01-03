@@ -84,47 +84,35 @@ struct LinkedList *insertionByPosition(struct LinkedList *linkedList)
     printf("Enter the position(%d to %d) for insertion: ", 0, linkedList->size);
     scanf("%d", &position);
 
-    // if (position < 0 || position > linkedList->size)
-    // {
-    // printf("Invalid position\n");
-    // return linkedList; // Return the original list without changes
-    // }
+    if (position < 0 || position > linkedList->size)
+    {
+        printf("Invalid position\n");
+        return linkedList; // Return the original list without changes
+    }
 
     printf("Enter the data for insertion: ");
     scanf("%d", &data);
 
-    struct Node *sakshi = nodeCreator(data);
+    struct Node *newNode = nodeCreator(data);
 
-    // if (position == 0)
-    // {
-    //     // Insert at the beginning
-    //     newNode->next = linkedList->head;
-    //     linkedList->head = newNode;
-    // }
-    // else
-    // {
-    //     struct Node *current = linkedList->head;
-    //     for (int i = 0; i < position - 1; i++)
-    //     {
-    //         current = current->next;
-    //     }
-    //     newNode->next = current->next;
-    //     current->next = newNode;
-    // }
-
-    // linkedList->size++;
-
-    struct Node * sonal = linkedList->head;
-    for(int i = 1; i<position-1; i++)
+    if (position == 0)
     {
-        sonal = sonal->next;
+        // Insert at the beginning
+        newNode->next = linkedList->head;
+        linkedList->head = newNode;
     }
-    struct Node * atul = sonal->next;
-    sakshi->next = atul;
-    sonal->next = sakshi;
-    printf("\n atul = %d\n",atul->data);
-    
+    else
+    {
+        struct Node *current = linkedList->head;
+        for (int i = 0; i < position - 1; i++)
+        {
+            current = current->next;
+        }
+        newNode->next = current->next;
+        current->next = newNode;
+    }
 
+    linkedList->size++;
     return linkedList;
 }
 

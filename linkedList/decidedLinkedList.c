@@ -12,7 +12,7 @@ void display(struct Node *head)
     struct Node *finger = head;
     while (finger != NULL)
     {
-        printf("%d ", finger->data);
+        printf("%p ", finger->next);
         finger = finger->next;
     }
 }
