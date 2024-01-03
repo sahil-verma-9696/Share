@@ -63,26 +63,26 @@
 
 # Example : 
 
-# Logical AND (and)
-result_and_1 = False and True  # False evaluates to False, so the result is False
-result_and_2 = True and "Hello"  # True evaluates to True, so the result is "Hello"
+# # Logical AND (and)
+# result_and_1 = False and True  # False evaluates to False, so the result is False
+# result_and_2 = True and "Hello"  # True evaluates to True, so the result is "Hello"
 
-print("False and True:", result_and_1)  # Output: False
-print("True and 'Hello':", result_and_2)  # Output: 'Hello'
+# print("False and True:", result_and_1)  # Output: False
+# print("True and 'Hello':", result_and_2)  # Output: 'Hello'
 
-# Logical OR (or)
-result_or_1 = True or False  # True evaluates to True, so the result is True
-result_or_2 = False or "Python"  # False evaluates to False, so the result is "Python"
+# # Logical OR (or)
+# result_or_1 = True or False  # True evaluates to True, so the result is True
+# result_or_2 = False or "Python"  # False evaluates to False, so the result is "Python"
 
-print("True or False:", result_or_1)  # Output: True
-print("False or 'Python':", result_or_2)  # Output: 'Python'
+# print("True or False:", result_or_1)  # Output: True
+# print("False or 'Python':", result_or_2)  # Output: 'Python'
 
-# Logical NOT (not)
-result_not_1 = not True  # True evaluates to True, so the result is False
-result_not_2 = not "Hello"  # Non-empty string evaluates to True, so the result is False
+# # Logical NOT (not)
+# result_not_1 = not True  # True evaluates to True, so the result is False
+# result_not_2 = not "Hello"  # Non-empty string evaluates to True, so the result is False
 
-print("not True:", result_not_1)  # Output: False
-print("not 'Hello':", result_not_2)  # Output: False
+# print("not True:", result_not_1)  # Output: False
+# print("not 'Hello':", result_not_2)  # Output: False
 
 #  ********************** Identity operator ***************************
 # Operator
@@ -163,6 +163,36 @@ print("not 'Hello':", result_not_2)  # Output: False
 # # because they are distinct objects in memory.
 
 #  ********************** Membership operator *************************
+# Example
+
+# String
+my_string = "Hello, World!"
+print('H' in my_string)         # Output: True
+print('X' not in my_string)     # Output: True
+print('ello' in my_string)      # Output: True
+
+# List
+my_list = [1, 2, 3, 4, 5]
+print(3 in my_list)             # Output: True
+print(6 not in my_list)         # Output: True
+print([1, 2] in my_list)        # Output: False alone is not capable for checking sublist
+
+# Tuple
+my_tuple = (10, 20, 30, 40, 50)
+print(30 in my_tuple)           # Output: True
+print(25 not in my_tuple)       # Output: True
+
+# Dictionary
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+print('a' in my_dict)           # Output: True
+print('d' not in my_dict)       # Output: True (checks for keys, not values)
+print(1 in my_dict.values())    # Output: True (checks for values)
+
+# Set
+my_set = {1, 2, 3, 4, 5}
+print(2 in my_set)              # Output: True
+print(6 not in my_set)          # Output: True
+
 
 
 #  ********************** Bitwise operator ****************************
