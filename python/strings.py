@@ -33,7 +33,8 @@ def problem_5():
 # Write a program that takes your full name as input and display the abbreviations of the first and middle names except the last name which is displayed as it is. For example, if your name is Robert Brett Toser, then the output should be R.B.Toser.
 def problem_6():
     name = input("Enter your name\n");
-    wordList = name.split(" ");
+    wordList = name.strip().split(" ");
+    print(wordList)
     result = ""
     length = len(wordList);
     count = 0
@@ -86,6 +87,6 @@ def problem_8(string):
 # problem_3()
 # problem_4()
 # problem_5()
-# problem_6()
+problem_6()
 # problem_7("xgf fhf")
 

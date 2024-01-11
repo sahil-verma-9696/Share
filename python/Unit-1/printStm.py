@@ -21,3 +21,6 @@
 # n1 =5;
 # n2 = 5;
 # print(f"n1 = {n1}")  # f is formate string litral "it use to mentioning variable and expresion in string using {} "
+
+n= 0
+print(not n)

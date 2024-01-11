@@ -165,33 +165,33 @@
 #  ********************** Membership operator *************************
 # Example
 
-# String
-my_string = "Hello, World!"
-print('H' in my_string)         # Output: True
-print('X' not in my_string)     # Output: True
-print('ello' in my_string)      # Output: True
+# # String
+# my_string = "Hello, World!"
+# print('H' in my_string)         # Output: True
+# print('X' not in my_string)     # Output: True
+# print('ello' in my_string)      # Output: True
 
-# List
-my_list = [1, 2, 3, 4, 5]
-print(3 in my_list)             # Output: True
-print(6 not in my_list)         # Output: True
-print([1, 2] in my_list)        # Output: False alone is not capable for checking sublist
+# # List
+# my_list = [1, 2, 3, 4, 5]
+# print(3 in my_list)             # Output: True
+# print(6 not in my_list)         # Output: True
+# print([1, 2] in my_list)        # Output: False alone is not capable for checking sublist
 
-# Tuple
-my_tuple = (10, 20, 30, 40, 50)
-print(30 in my_tuple)           # Output: True
-print(25 not in my_tuple)       # Output: True
+# # Tuple
+# my_tuple = (10, 20, 30, 40, 50)
+# print(30 in my_tuple)           # Output: True
+# print(25 not in my_tuple)       # Output: True
 
-# Dictionary
-my_dict = {'a': 1, 'b': 2, 'c': 3}
-print('a' in my_dict)           # Output: True
-print('d' not in my_dict)       # Output: True (checks for keys, not values)
-print(1 in my_dict.values())    # Output: True (checks for values)
+# # Dictionary
+# my_dict = {'a': 1, 'b': 2, 'c': 3}
+# print('a' in my_dict)           # Output: True
+# print('d' not in my_dict)       # Output: True (checks for keys, not values)
+# print(1 in my_dict.values())    # Output: True (checks for values)
 
-# Set
-my_set = {1, 2, 3, 4, 5}
-print(2 in my_set)              # Output: True
-print(6 not in my_set)          # Output: True
+# # Set
+# my_set = {1, 2, 3, 4, 5}
+# print(2 in my_set)              # Output: True
+# print(6 not in my_set)          # Output: True
 
 
 
