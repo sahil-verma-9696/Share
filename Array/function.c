@@ -1,3 +1,0 @@
-void display(){
-    printf("sahil");
-}

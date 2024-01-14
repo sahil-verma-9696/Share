@@ -1,0 +1,27 @@
+************** Array ***********************
+
+1. Traversing ✅
+
+2. Insertion ✅
+    at Ending.   i.e  original [1,2,3], value = 99  after insertion [1,2,3,99] ✅
+    at Begining. i.e  original [1,2,3], value = 99  after insertion [99,1,2,3] ✅
+    at position. i.e  position = 3 ,    value = 99  original [1,2,3,4,5] after insertion [1,2,99,3,4,5] ✅
+
+3. Deletion
+    at Ending.   i.e  original [1,2,3]  after Deletion [1,2]
+    at Begining. i.e  original [1,2,3]  after Deletion [2,3]
+    at position. i.e  position = 3 original [1,2,3,4,5] after Deletion [1,2,4,5]
+
+4. Shorting                    by me
+    Bubble                      ✅
+    Insertion                   ✅
+    Selection                   ✅
+    Merg
+    Quick
+    Heap
+    Radix
+
+5. Searching
+    Sequential
+    Index Sequential
+    Binary

@@ -1,11 +1,27 @@
 #include<stdio.h>
-#include "../include/display.h"
-
 void main()
 {
-    int arr[] = {8,0,9,0,7,6,8,9,3,3};
+    // first creating array
+    int size = 5;
+    // printf("Enter the size : ");
+    // scanf("%d",&size);
 
-    int size = sizeof(arr)/sizeof(int);
+    // declaring array
+    int arr[size];
 
-    display_array(arr,size);
+    // assigning elements to array by user.
+    printf("Assigning elements to array : \n");
+    for(int i = 0; i<size; i++)
+    {
+        printf("arr[%d] : ",i);
+        scanf("%d",&arr[i]);
+    }
+
+    // traversing and printing elements of array.
+    printf("\nTraversing the array \n");
+    for(int i = 0; i<size; i++)
+    {
+        printf("arr[%d] = %d\n",i,arr[i]);
+    }
+
 }
