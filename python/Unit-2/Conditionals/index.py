@@ -97,15 +97,15 @@
 # countLet("sahi verMa")        
     
 #
-t = (
-    (1, 2, 3, 4),
-    (3, 5, 2, 1),
-    (2, 2, 3, 1)
-)
-lst = []
-for i in range(4):
-    sum = 0
-    for j in range(3):
-        sum = sum + t[j][i]
-    lst.append(sum)
-print(lst)
+# t = (
+#     (1, 2, 3, 4),
+#     (3, 5, 2, 1),
+#     (2, 2, 3, 1)
+# )
+# lst = []
+# for i in range(4):
+#     sum = 0
+#     for j in range(3):
+#         sum = sum + t[j][i]
+#     lst.append(sum)
+# print(lst)

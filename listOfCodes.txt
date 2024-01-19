@@ -16,6 +16,7 @@
     Bubble                      ✅
     Insertion                   ✅
     Selection                   ✅
+   
     Merg
     Quick
     Heap
