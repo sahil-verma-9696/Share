@@ -57,7 +57,7 @@ void push(struct stack **stack)
     //         break;
     //     }
 
-    if (isFull)
+    if (isFull())
     {
         printf("Stack overflow\n");
         return;
@@ -72,6 +72,7 @@ void push(struct stack **stack)
 
     newNode->next = (*stack)->top;
     (*stack)->top = newNode;
+    display(*stack);
     // }
 }
 
@@ -89,6 +90,7 @@ void pop(struct stack **stack)
     }
     struct node *temp = (*stack)->top;
     (*stack)->top = (*stack)->top->next;
+    display(*stack);
 }
 void main()
 {
@@ -102,7 +104,7 @@ void main()
 
     while (1)
     {
-        printf("\nSelect stack operations.\n1 : Push.\n2 : Pop\n3 : Peek\n4 : Display\n0 : Exit\n");
+        printf("\nSelect stack operations.\n1 : Push.\n2 : Pop\n3 : Peek\n0 : Exit\n");
         int opcode;
         scanf("%d", &opcode);
 
@@ -117,7 +119,5 @@ void main()
             pop(&stack);
         if (opcode == 3)
             peek(stack);
-        if (opcode == 4)
-            display(stack);
     }
 }

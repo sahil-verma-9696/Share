@@ -1,0 +1,40 @@
+Implementation of linked list
+Enter
+1. for newNode.
+0. for Exit
+1
+Enter the data : 9
+Linked list: 9->NULL
+Enter 
+1. for newNode.
+0. for Exit
+1
+Enter the data : 8
+Linked list: 9->8->NULL
+
+Selection any operation on linked list. 
+1 : for insertion.
+2 : for deletion. 
+3 : for traversing.
+0 : for exit.
+1
+Enter
+1. for continue...
+0. for exit.
+1
+Enter the position(1 to 2) : 2
+Enter the data : 555
+Linked list: 9->555->8->NULL
+
+Selection any operation on linked list.
+1 : for insertion.
+2 : for deletion.
+3 : for traversing.
+0 : for exit.
+2
+Enter
+1. for continue....
+0. for exit.
+1
+Enter the deletion's position (1 to 3) : 1
+Linked list: 555->8->NULL
